@@ -1,0 +1,35 @@
+* {
+    font-family: var(--font-family);
+}
+
+.tm__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 33px;
+    padding-top: 27px;
+
+}
+
+.tm__header-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+
+.tm__header-version {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 7px;
+}
+
+.tm__header-swaggerLink {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 1rem;
+}
